@@ -35,7 +35,7 @@ class TestDate {
         //get weekday as text
         DateFormat format2 = new SimpleDateFormat("EEEE", Locale.ENGLISH);
 
-        System.out.println("Day of week: " + c.get(Calendar.DAY_OF_WEEK) + " | Weekday: " + format2.format(dateCal));
+        System.out.println("The day of week is: " + c.get(Calendar.DAY_OF_WEEK) + " | Weekday: " + format2.format(dateCal));
 
     }
 }
